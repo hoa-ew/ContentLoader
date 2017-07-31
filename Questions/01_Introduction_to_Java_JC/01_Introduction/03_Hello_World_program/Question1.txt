@@ -1,0 +1,15 @@
+#!Q-T:MCSA#
+Which of the following statements is correct?
+#!QAS-B#
+#!QAE#Every statement in a program must end with a semicolon
+#!QAE#Every line in a program must end with a semicolon
+#!QAE#Every comment line must end with a semicolon
+#!QAE#Every method must end with a semicolon
+#!QAE#Every class must end with a semicolon
+#!QAS-E#
+#!AEE:1#Every statement, an individual line of code, in the Java program ends with a semicolon 
+#!AEE:0#is incorrect because classes and methods do not require a semicolon
+#!AEE:0#is incorrect because comments do not require a semicolon
+#!AEE:0#is incorrect because classes require braces, not semicolons
+#!AEE:0#is incorrect because methods require braces, not semicolons
+

@@ -1,0 +1,33 @@
+#!Q-T:WSCQ#
+Complete the method `multipleOfTwo` so that it satisfies the following condition:
+Returns 2 times `paramOne`
+
+Use recursion when writing your response.
+For example:
+`multipleOfTwo(1)` should return 2
+`multipleOfTwo(2)` should return 4
+`multipleOfTwo(3)` should return 6
+#!C-B##!C-SL:JVSL#
+package exlhub;
+public int multipleOfTwo(int paramOne) {
+  /* Write your code here: */
+}
+#!C-E#
+#!AVC-B#
+procedure: junit,ast_checker,stdout_regex 
+junit: path/to/junit
+ast_checker: path/to/ast/checker
+stdout_regex: path/to/output/regex
+#!AVC-E#
+#!AC-B#
+package exlhub;
+public int multipleOfTwo(int paramOne) {
+  // base case
+  if (paramOne == 0){
+    return 0;
+  }
+  // adds 2 until paramOne is zero
+  return 2 + multipleOfTwo(paramOne - 1);
+}
+#!AC-E#
+
